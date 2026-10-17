@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              SalePrice   R-squared:                       0.779
+Model:                            OLS   Adj. R-squared:                  0.778
+Method:                 Least Squares   F-statistic:                     2572.
+Date:                Sat, 17 Oct 2026   Prob (F-statistic):               0.00
+Time:                        11:12:29   Log-Likelihood:                -35023.
+No. Observations:                2930   AIC:                         7.006e+04
+Df Residuals:                    2925   BIC:                         7.009e+04
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const         -8.945e+05   5.57e+04    -16.064      0.000      -1e+06   -7.85e+05
+Gr Liv Area      56.4172      1.734     32.540      0.000      53.018      59.817
+Overall Qual   2.245e+04    760.094     29.537      0.000     2.1e+04    2.39e+04
+Total Bsmt SF    34.9088      1.944     17.957      0.000      31.097      38.721
+Year Built      414.4922     29.323     14.135      0.000     356.996     471.988
+==============================================================================
+Omnibus:                     1005.935   Durbin-Watson:                   1.471
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            95932.291
+Skew:                          -0.656   Prob(JB):                         0.00
+Kurtosis:                      31.001   Cond. No.                     2.18e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.18e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
