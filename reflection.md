@@ -1,5 +1,6 @@
 # AmesHousingRTB
 # Week 7 Codex CLI Hands-On
+My URL:https://github.com/rtbenson22/AmesHousingRTB
 
 ## Project Reflection: 
 My approach to using Codex was to make an outline in a word document that 
